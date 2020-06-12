@@ -1,3 +1,9 @@
-# ziptop
+# Zipwork Website
 
-Theme: https://github.com/colorchestra/smol
+Built with Hugo
+
+Theme: https://github.com/vimux/mainroad
+
+https://zipwork.github.io/website
+
+https://zipwork.io
