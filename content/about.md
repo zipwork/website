@@ -1,12 +1,12 @@
 ---
 title: "About"
 date: 2020-06-12T09:02:09-07:00
-draft: true
+draft: false
 ---
 
 ### Hi!
 
-My name is Andy (or *andyl*) and I'm a software developer based in *us-west*.
+My name is Andy (aka *andyl*) and I'm a software developer based in *us-west*.
 I created this blog to write about tech oriented subjects:
 
 - Off-Grid Internet Connectivity
