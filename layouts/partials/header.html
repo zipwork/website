@@ -1,13 +1,6 @@
 <header style='padding-bottom: 25px; border-bottom: 1px solid black';>
   ==<img src='/img/zipwork-256.png' height=16 style='vertical-align: -4px;padding-left: 4px; padding-right: 4px;'></img><a href="{{ .Site.BaseURL }}"><b>{{ .Site.Title }}</b></a> ==
 	<div style="float: right;">
-    <nav>
-		<a href="/"><b>Home</b></a>.
-		{{ with .Site.Menus.main }}
-		{{ range . }}
-		<a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a>.
-		{{ end }}
-	  {{ end }}
-    </nav>
+    {{ partial "nav.html" . }}
   </div>
 </header>

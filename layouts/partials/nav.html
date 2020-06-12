@@ -1,0 +1,12 @@
+{{ $cPage := . }}
+<nav>
+  {{ with .Site.Menus.main }}
+    {{ range . }}
+      {{ if $cPage.IsMenuCurrent "main" . }} 
+        <b>{{ .Name }}</b>.
+      {{ else }}
+        <a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a>.
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</nav>

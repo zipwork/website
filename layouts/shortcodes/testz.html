@@ -1,0 +1,31 @@
+<p>
+{{ $currentPage := .Parent }}
+</p>
+
+<p>
+This is the shortcode text.
+</p>
+
+<p>
+{{ $currentPage }}
+</p>
+
+<p>
+{{ if true }}
+NO
+{{ end }}
+</p>
+
+<p>
+x {{.Get 0}}
+</p>
+
+<p>
+y {{.Get 1}}
+</p>
+
+<p>
+End of shortcode text.
+</p>
+
+
