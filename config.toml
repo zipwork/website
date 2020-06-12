@@ -1,7 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "http://zipwork.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Zipwork"
 theme = "smol"
+publishDir = "docs"
 
 # Header
 [menu]
