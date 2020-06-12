@@ -1,0 +1,16 @@
+<header>
+	{{ strings.Repeat ( .Site.Title | len | add 8 ) "=" }}<br>
+  ==<img src='/img/zipwork-256.png' height=16 style='vertical-align: -4px;padding-left: 4px; padding-right: 4px;'></img><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> ==<br>
+	{{ strings.Repeat ( .Site.Title | len | add 8 ) "=" }}
+	<div style="float: right;">{{ .Site.Params.subtitle }}</div><br>
+	<p>
+	<nav>
+			<a href="/"><b>Start</b></a>.
+			{{ with .Site.Menus.main }}
+			{{ range . }}
+			<a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a>.
+			{{ end }}
+	</nav>
+	</p>
+	{{ end }}
+</header>
