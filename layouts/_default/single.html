@@ -10,6 +10,9 @@
 			<div>
 				{{ .Content }}
 			</div>
+      {{ if not (in (string .Site.BaseURL) "localhost")}}
+        <div id="replybox"></div>
+      {{ end }}
 		</article>
 	</main>
 {{ partial "sidebar.html" . }}
